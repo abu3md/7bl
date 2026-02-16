@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شد الحبل</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        
+        <div class="center-content">
+            <h1 id="questionDisplay">من هو مخترع المصباح الكهربائي؟</h1>
+            <p id="answerDisplay" class="answer-text"></p>
+        </div>
+        
+        <div class="tug-of-war-area-single">
+             <img id="gameImage" src="ropeg.png" alt="شد الحبل" class="ropeg-image">
+             <div class="center-line"></div> 
+        </div>
+
+        <div class="pull-buttons-area">
+             <button id="team1PullBtn" class="pull-btn pull-left" data-team="1">سحب</button>
+             <button id="team2PullBtn" class="pull-btn pull-right" data-team="2">سحب</button>
+        </div>
+        
+        <div id="actionButtonsArea" class="action-buttons-area">
+            <button id="nextQuestionBtn" class="action-btn">التالي</button>
+            <button id="showAnswerBtn" class="action-btn">إظهار الإجابة</button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
